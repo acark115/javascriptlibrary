@@ -40,10 +40,20 @@ console.log("i değeri:" + i);//i değerini consola yazdırdık
 var i = 0;
 while (i < 100){
 console.log("i değeri:" + i);
-  i += 2
+  i += 2// her döngünün sonunda i değeri  2 artıyor 
+  // kod çalıştığında i değerleri 0 dan 100 e çift sayıların çıktısını alırız 
 }
 
+//                ARRAYLARIN YAZDIRMAK 
 
+var sayilar = [32,35,40,57];  // arrayımız oluşturduk
+alert(sayilar.lenght);// bu şekilde kaç tane değer olduğunu söyler 
+
+// eğer çok faza değerin olduğu arrayımız varsa ve bu değerleri yazırmak istiyorsak bu kodu kullanırız
+console.log("array elamanları:" );
+for (var i = 0; i < sayilar.lenght;i++){
+  console.log("eleman" + sayilar[i]);
+}
 
 
 
