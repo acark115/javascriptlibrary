@@ -54,6 +54,36 @@ console.log("array elamanları:" );
 for (var i = 0; i < sayilar.lenght;i++){
   console.log("eleman" + sayilar[i]);
 }
+// pratik yöntem: foreach sayıların üzerinde tek tek gezin demek ve foreach için fonksiyon lazımda ve yazdık function objesi for each döngüsü üzerinde her gezindiğinde sayi değişkenine eşitlicek  
+sayilar.forEach(function(sayi){
+console.log("eleman:" + sayi);
+});
 
+//              KOŞULLU DURUMLAR 
 
+var a = 5;
+var h = 6;
+if(a == h){
+console.log("esit");
+}
+// a ile h nin esit olup olmadığını kontrol ettik
 
+if( a != h){
+console.log("esit değil");
+}
+//a nın h ile eşit olmadığını kontrol ettik ! eşit değil işaretidir 
+
+if( 2 == "2"){
+  cosnole.log("esit");
+} 
+//burada eşit diyecektir ancak "2" string bir ifadedir bunu önlemek için 
+if(2 === "2"){
+  console.log("esit");
+}
+//burada çıktı vermeyecektir === işareti string değerlerle diğer tür değerleri kontrol eder 
+
+if(10 == 20){
+  console.log("eşit");
+}else{
+  console.log("esit değil");
+}
