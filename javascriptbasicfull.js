@@ -87,3 +87,40 @@ if(10 == 20){
 }else{
   console.log("esit değil");
 }
+
+if(2==2 && "murat"=="mehmet"){
+  console.log("evet");
+}else{
+  console.log("hayır");
+}
+//&& biri bile yanlış çıksa hayır çıktısını verir || buda or operatörüdü genle sunucunun evet çıkması için en az birinin doğru olması gerekir
+if( ! (3 < 4)){
+  console.log("evet");
+}
+// parantez içindeki true ama dışardaki ! işareti onu false a çevirdi o yüzden çıktı alamadık
+
+//           ELSEİF
+var islem = 2 ;
+if(islem == 1 ){
+  console.log("islem 2");
+}else if (islem == 3){
+  console.log("islem 3");
+}else{
+  console.log("geçersiz işlem");
+}
+
+//                              SWİTCH CASE
+var ı = 4;
+switch(islem){
+  case 1:
+     console.log("işlem 1");
+     break;
+  case 2:
+    console.log("işlem 2");
+     break;
+  case 3:
+    console.log("işlem 3");
+     break;
+  default:
+    console.log("geçersiz işlem");
+}
