@@ -124,3 +124,27 @@ switch(islem){
   default:
     console.log("geçersiz işlem");
 }
+
+//                           FONKSİYONLAR
+function selamla(){
+  console.log("merhaba");
+}
+selamla();//fonksiyon bloğunu çağırdık ve çalıştırdık
+selamla();
+selamla();
+selamla();
+selamla();
+selamla();//istediğimiz kadar kullanabiliriz
+
+function sa(isim){
+  cosnole.log("merhaba" + isim);//isim parametredir
+}
+sa("as");//burada parametreyi istediğimiz şekilde değiştirebiliriz ve burada fonsiyon bloğunu çağırıp çalıştırıdkk çıktı olarak merhaba as yazdı
+sa("ab");//burada da çıktı olarak merhaba ab verdi
+
+function toplama(a,b,c){
+  console.log("toplamları : " + (a+b+c));
+}
+toplama(3,4,5);
+
+function
