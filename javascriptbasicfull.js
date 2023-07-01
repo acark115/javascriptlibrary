@@ -147,4 +147,17 @@ function toplama(a,b,c){
 }
 toplama(3,4,5);
 
-function
+function toplama2(a,b,c){
+  return a + b + c;//a b c inputu aldık
+  
+}
+var toplam = toplama2(3,4,5);
+console.log("toplamları" + toplam);
+
+//-----------------------------OBJE OLUŞTURMA------------------------------------------
+var calisan = {
+  isim: "kerem arda",
+  soyisim:"açar",
+  numara:"123456",
+  diller: ["php","java"]
+};// objemizin 4 tane özelliği var 
